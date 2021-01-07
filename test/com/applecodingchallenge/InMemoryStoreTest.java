@@ -142,6 +142,7 @@ public class InMemoryStoreTest {
     void CodingChallengeExamplesProof() {
         InMemoryStore inMemoryStore = new InMemoryStore();
         /*
+        Examples from the coding challenge document
         store("34-78", RED)
         store("31-41", YELLOW)
         store("64-98", GREEN)

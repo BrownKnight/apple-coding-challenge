@@ -78,8 +78,9 @@ public class InMemoryStore {
 
     /**
      * Returns the colour for the given index.
+     *
      * @param indexString Index for fetch the colour for, given as a 2 character string
-     * @return  Colour stored against the specified index. Colour.GREY if no colour has been stored
+     * @return Colour stored against the specified index. Colour.GREY if no colour has been stored
      */
     public Colour get(String indexString) {
         // Validate the arguments for a bit
